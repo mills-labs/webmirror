@@ -7,7 +7,11 @@ Mirror a website for full offline navigation. `webmirror` crawls a site
 breadth-first, downloads every page and asset (with an optional headless-browser
 fallback for JavaScript-rendered pages), and rewrites all saved HTML and CSS so
 the copy navigates entirely offline. A manifest records every URL's outcome and
-drives resumable runs.
+drives resumable runs. 
+
+# Intent of this tool 
+
+One of my favourite websites disappeared without notice and it was the only niche website of its kind. I realized then, that the internet is a constantly changing resource and  knowledge can easily disappear or be changed. I struggled with trialware after they couldn't cope with multiple website levels and files so I built my own for offline personal knowledge capture. This tool is designed to be respect hosting services if slower fetch rates are used. 
 
 ## Install
 
