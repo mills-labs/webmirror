@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.env
+.env.local
+coverage/
+
+# Mirror output — downloaded content is not ours to publish
+mirror-*/
+mirror-manifest.json
+mirror-report.json
